@@ -1,4 +1,4 @@
-package Nivell1.Exercici6;
+package Nivell1.Exercici7;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ public class Main {
         things.sort((o1, o2) -> {
             int lengthO1 = (o1 instanceof String) ? ((String) o1).length() : 0;
             int lengthO2 = (o2 instanceof String) ? ((String) o2).length() : 0;
-            return lengthO1 - lengthO2;
+            return lengthO2 - lengthO1;
         });
 
         System.out.println(" ----- Sorted List -----");
