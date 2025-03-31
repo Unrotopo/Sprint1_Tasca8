@@ -1,4 +1,4 @@
-package Nivell1.Exercici3;
+package Nivell1.Exercici4;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,6 +9,6 @@ public class Main {
 
         List<String> months = Arrays.asList("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
-        months.forEach(month -> System.out.println(month));
+        months.forEach(System.out::println);
     }
 }
