@@ -8,8 +8,6 @@ public class Main {
 
         List<Object> things = new ArrayList<>();
 
-        //Revisar ordenación (cómo interpretar enunciado)
-
         things.add("potato");
         things.add(2);
         things.add(1_000_000);

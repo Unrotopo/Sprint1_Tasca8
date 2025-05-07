@@ -3,15 +3,12 @@ package Nivell2.Exercici3;
 public class Main {
     public static void main(String[] args) {
 
-        // Muchos else if no gustan. Más limpio!!
-
-        Operation operation = (String op, float a, float b) -> {
-            float c = 0;
-            if (op.equals("+")) c = a + b;
-            else if (op.equals("-")) c = a - b;
-            else if (op.equals("*")) c = a * b;
-            else if (op.equals("/")) c = a / b;
-            return c;
+        Operation operation = (String op, float a, float b) -> switch (op) {
+            case "+" -> a + b;
+            case "-" -> a - b;
+            case "*" -> a * b;
+            case "/" -> a / b;
+            default -> 0;
         };
 
         System.out.println(operation.operation("+", 32, 7));
