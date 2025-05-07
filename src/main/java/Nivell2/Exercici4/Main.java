@@ -1,5 +1,10 @@
 package Nivell2.Exercici4;
 
+import Nivell2.Exercici4.order.EGoesFirst;
+import Nivell2.Exercici4.order.FourInsteadOfA;
+import Nivell2.Exercici4.order.OnlyNumbers;
+import Nivell2.Exercici4.order.OrderByFirstChar;
+
 import java.util.ArrayList;
 import java.util.List;
 

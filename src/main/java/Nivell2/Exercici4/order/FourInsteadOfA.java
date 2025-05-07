@@ -1,4 +1,4 @@
-package Nivell2.Exercici4;
+package Nivell2.Exercici4.order;
 
 import java.util.List;
 
